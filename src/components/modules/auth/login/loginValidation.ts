@@ -9,3 +9,4 @@ export const loginSchema = z.object({
     .string({ required_error: "Password is required" })
     .min(8, "Password must be at least 8 characters"),
 });
+
